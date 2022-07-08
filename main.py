@@ -10,6 +10,7 @@ def email_create():
     name = request.args['name']
     print('CHANGES FROM LEFT')
     print('Another one')
+    print('On branch test1')
 
     try:
         conn = sqlite3.connect('users.db')
