@@ -8,6 +8,7 @@ app = Flask(__name__)
 def email_create():
     email = request.args['email']
     name = request.args['name']
+    print('Another one')
 
     try:
         conn = sqlite3.connect('users.db')
