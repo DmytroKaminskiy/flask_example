@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+env/
+http.request.txt
+http.response.txt
+hw.csv
+users.db
