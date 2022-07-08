@@ -11,6 +11,7 @@ def email_create():
     print('CHANGES FROM LEFT')
     print('Changes from right')
     print('Another one')
+    print('On branch test1')
 
     try:
         conn = sqlite3.connect('users.db')
