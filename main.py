@@ -45,7 +45,7 @@ def email_read():
 @app.route('/emails/delete/')
 def email_delete():
     email = request.args['email']
-
+    print('GIT TEST')
     try:
         conn = sqlite3.connect('users.db')
         cur = conn.cursor()
